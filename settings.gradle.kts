@@ -19,6 +19,10 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "assignment1"
+=======
+rootProject.name = "FireBase"
+>>>>>>> cb1f0d3cbe7cf1ee086907e3042ed4aad664435f
 include(":app")
  

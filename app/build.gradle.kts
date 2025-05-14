@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+<<<<<<< HEAD
 }
 
 android {
@@ -8,6 +9,17 @@ android {
 
     defaultConfig {
         applicationId = "com.example.assignment1"
+=======
+    alias(libs.plugins.google.gms.google.services)
+}
+
+android {
+    namespace = "com.example.firebase"
+    compileSdk = 35
+
+    defaultConfig {
+        applicationId = "com.example.firebase"
+>>>>>>> cb1f0d3cbe7cf1ee086907e3042ed4aad664435f
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -37,6 +49,11 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+<<<<<<< HEAD
+=======
+    implementation(libs.firebase.database)
+    implementation(libs.firebase.auth)
+>>>>>>> cb1f0d3cbe7cf1ee086907e3042ed4aad664435f
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
