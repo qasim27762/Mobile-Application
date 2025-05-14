@@ -1,0 +1,32 @@
+# Built files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Gradle files
+.gradle/
+build/
+app/build/
+*/build/
+
+# Local configuration file (sdk paths, etc)
+local.properties
+
+# IDE files
+.idea/
+*.iml
+*.swp
+*.log
+.navigation/
+
+# Keystore files
+*.jks
+*.keystore
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Firebase/Google Services (if used)
+google-services.json
